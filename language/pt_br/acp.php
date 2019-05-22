@@ -2,6 +2,7 @@
 
 /**
 * phpBB Extension - marttiphpbb posting template
+* Brazilian Portuguese translation by eunaumtenhoid (c) 2018 [ver 1.0.0] (https://github.com/phpBBTraducoes) 
 * @copyright (c) 2015 - 2018 marttiphpbb <info@martti.be>
 * @license GNU General Public License, version 2 (GPL-2.0)
 */
@@ -32,6 +33,6 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, array(
-	'ACP_POSTINGTEMPLATE'			=> 'Mesaj Şablonu',
-	'ACP_POSTINGTEMPLATE_EXPLAIN'	=> 'Bu foruma yeni bir konu eklediğinizde, bu şablon otomatik olarak metin kutusuna eklenecektir. Bu seçeneği devre dışı bırakmak için boş bırakın.',
+	'ACP_POSTINGTEMPLATE'			=> 'Posting template',
+	'ACP_POSTINGTEMPLATE_EXPLAIN'	=> 'Ao iniciar um tópico, o editor de texto será pré-preenchido com este modelo de postagem. Deixe em branco quando você não desejar usar isso.',
 ));

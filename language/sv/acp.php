@@ -3,6 +3,7 @@
 /**
 * phpBB Extension - marttiphpbb posting template
 * @copyright (c) 2015 - 2018 marttiphpbb <info@martti.be>
+* Swedish translation by Holger (http://www.maskinisten.net)
 * @license GNU General Public License, version 2 (GPL-2.0)
 */
 
@@ -32,6 +33,6 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, array(
-	'ACP_POSTINGTEMPLATE'			=> 'Mesaj Şablonu',
-	'ACP_POSTINGTEMPLATE_EXPLAIN'	=> 'Bu foruma yeni bir konu eklediğinizde, bu şablon otomatik olarak metin kutusuna eklenecektir. Bu seçeneği devre dışı bırakmak için boş bırakın.',
+	'ACP_POSTINGTEMPLATE'			=> 'Inläggsmall',
+	'ACP_POSTINGTEMPLATE_EXPLAIN'	=> 'När ett nytt ämne skapas så kommer fältet för meddelande att innehålla dessa inläggsmallens text. Lämna tomt om du ej vill använda detta.',
 ));
